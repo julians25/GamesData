@@ -23,7 +23,7 @@ export function Details() {
     const options = {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": "4f7cb24732msh5f485107cc994cdp1727e1jsne30f351ccdc5",
+        "X-RapidAPI-Key": "personal key",
         "X-RapidAPI-Host": "free-to-play-games-database.p.rapidapi.com",
       },
     };
