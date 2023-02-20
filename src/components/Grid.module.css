@@ -1,0 +1,13 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 365px);
+    gap: 40px;
+    padding: 70px;
+    justify-content: center;
+}
+
+@media (max-width:560px){
+    .grid{
+        grid-template-columns: 100%;
+    }
+}

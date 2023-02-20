@@ -1,0 +1,35 @@
+.container{
+    display: flex  ;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.detailsContainer{
+    display: flex  ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col{
+    max-width: 500px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+} 
+
+.description{
+    max-width: 900px;
+    height: auto;
+    height: 80%;
+}
+
+.gameImage{
+    border-radius: 15;
+}
+
+.movieDetails{
+    font-size: 1.5rem;
+}
+
+.first{
+    margin-top: 0;
+}

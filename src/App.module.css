@@ -1,0 +1,28 @@
+.title {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 80px;
+}
+.nombre{
+    text-align: center;
+    font-size: 4rem;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(3, 15, 22);
+    
+}
